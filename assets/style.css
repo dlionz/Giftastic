@@ -1,0 +1,32 @@
+body{
+  background-color: #f1edec;
+}
+
+p {
+  text-align: center;
+}
+
+.animalBtn{
+  align-content: center;
+  border-radius: 25px;
+  color: balck;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#animalButtons{
+  padding-bottom: 2%;
+}
+
+#animal-form{
+  /*float: right;*/
+  font-size: 17px;
+}
+
+#animal-input, #addAnimal, .animalBtn{
+  font-size: 17px;
+}
+
+#animals{
+  padding: 5%;
+}
