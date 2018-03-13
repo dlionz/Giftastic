@@ -1,32 +1,34 @@
-body{
-  background-color: #f1edec;
+body {
+  background-color: white;
+  color: #474747;
+  font-family: "Roboto", sans-serif;
 }
 
 p {
   text-align: center;
 }
 
-.animalBtn{
-  align-content: center;
-  border-radius: 25px;
-  color: balck;
-  background: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.margin {
+  margin-top: 25px;
 }
 
-#animalButtons{
-  padding-bottom: 2%;
+.animalBtn {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
 }
 
-#animal-form{
+#animal-form {
   /*float: right;*/
   font-size: 17px;
 }
 
-#animal-input, #addAnimal, .animalBtn{
+#animal-input,
+#addAnimal,
+.animalBtn {
   font-size: 17px;
 }
 
-#animals{
+#animals {
   padding: 5%;
 }

@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/style.css" type="text/css">
 
   <title>Document</title>
 
 </head>
+
 <body>
-  <!--Will hold animal buttons  -->
-  <div id="animalButtons">
-
+  <div class="container">
+    <div class="row margin">
+      <div class="col-md-6 offset-md-3">
+        <!--Will hold animal buttons  -->
+        <div id="animalButtons"></div>
+        <!--For for creating new buttons -->
+        <form id="animal-form">
+          <label for="animal-input">Add an animal! Or whatever I geuss?</label>
+          <input type="text" id="animal-input">
+          <button id="addAnimal" type="submit" class="btn btn-success">submit</button>
+        </form>
+        <!-- Will hold the animal gifs -->
+        <p>Click the image to run the gif!</p>
+      </div>
+    </div>
   </div>
-  <!--For for creating new buttons -->
-  <form id="animal-form">
-    <label for="animal-input">Add an animal! Or whatever I geuss?</label>
-    <input type="text" id="animal-input"></div>
-    <input id="addAnimal" type="submit" value="submit"></input>
-  </form>
-  <!-- Will hold the animal gifs -->
-  <p>Click the images to run the gif!</p>
-  <div id="animals">
-  </div>
+  <div id="animals" class="card-columns"></div>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-<script type="text/javascript" src="assets/app.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/app.js"></script>
 </body>
+
 </html>
